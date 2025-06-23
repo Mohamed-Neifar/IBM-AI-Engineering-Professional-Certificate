@@ -57,10 +57,9 @@ The project files are organized as follows:
 ```
 Course1_Rainfall_Prediction/
 ├── rainfall_prediction.ipynb  # Jupyter Notebook with the complete project code
-├── weatherAUS.csv            # Dataset (not included in repo due to size; download from Kaggle)
-├── requirements.txt          # Python dependencies
-├── README.md                 # Project documentation
-└── LICENSE                   # MIT License
+├── weatherAUS.csv             # Dataset 
+├── requirements.txt           # Python dependencies
+└── README.md                  # Project documentation
 ```
 
 ## 🛠️ Requirements
