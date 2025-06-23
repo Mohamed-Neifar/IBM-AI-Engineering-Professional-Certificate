@@ -20,8 +20,6 @@ This project implements and compares two classification algorithms:
    - A linear model used for binary classification, suitable for handling imbalanced datasets.
    - Optimized with parameters: `solver` (['liblinear']), `penalty` (['l1', 'l2']), and `class_weight` ([None, 'balanced']).
 
-Additional algorithms mentioned in the original README (Linear Regression, K-Nearest Neighbors, Support Vector Machines) were not implemented in the provided project document but could be explored in future iterations.
-
 ## 📊 Evaluation Metrics
 
 The models are evaluated using the following metrics to assess their performance in predicting rainfall:
