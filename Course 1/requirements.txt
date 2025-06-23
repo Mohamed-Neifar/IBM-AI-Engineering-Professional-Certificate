@@ -1,0 +1,21 @@
+🛠️ Requirements
+
+To run this project, install the following Python libraries:
+
+pip install pandas numpy scikit-learn matplotlib seaborn
+
+Detailed versions (as per the project document):
+
+pandas==2.3.0
+numpy==2.3.1
+scikit-learn==1.7.0
+matplotlib==3.10.3
+seaborn==0.13.2
+
+Additional dependencies:
+
+python-dateutil>=2.9.0.post0
+scipy>=1.8.0
+joblib>=1.2.0
+
+The project was developed in a Jupyter Notebook environment, but the code can be adapted for other Python environments.
