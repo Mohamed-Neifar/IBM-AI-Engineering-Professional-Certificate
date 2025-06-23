@@ -35,13 +35,13 @@ The models are evaluated using the following metrics to assess their performance
 
 The dataset, sourced from the [Australian Government's Bureau of Meteorology](http://www.bom.gov.au/climate/dwo/) via [Kaggle](https://www.kaggle.com/datasets/jsphyg/weather-dataset-rattle-package/), contains daily weather observations from 2008 to 2017 for multiple Australian locations. This project focuses on a subset of data from Melbourne, Melbourne Airport, and Watsonia (7557 records after preprocessing).
 
-### Key Features
+### 🔸Key Features
 - **Numerical Features**: MinTemp, MaxTemp, Rainfall, Evaporation, Sunshine, WindGustSpeed, WindSpeed9am, WindSpeed3pm, Humidity9am, Humidity3pm, Pressure9am, Pressure3pm, Cloud9am, Cloud3pm, Temp9am, Temp3pm (all float64).
 - **Categorical Features**: Location, WindGustDir, WindDir9am, WindDir3pm, RainYesterday, Season (all object).
 - **Target Variable**: `RainToday` (Yes/No, indicating if rainfall ≥ 1mm occurred today).
 - **Engineered Feature**: `Season` (Winter, Spring, Summer, Autumn), derived from the `Date` column.
 
-### Preprocessing Steps
+### 🔸Preprocessing Steps
 1. **Data Cleaning**: Dropped rows with missing values, reducing the dataset from 145,460 to 56,420 records, and further filtered to 7,557 records for Melbourne-area locations.
 2. **Feature Engineering**: Created a `Season` feature from the `Date` column and dropped `Date` to focus on seasonal patterns.
 3. **Renaming Columns**: Renamed `RainToday` to `RainYesterday` and `RainTomorrow` to `RainToday` to align with the goal of predicting today’s rainfall using historical data.
