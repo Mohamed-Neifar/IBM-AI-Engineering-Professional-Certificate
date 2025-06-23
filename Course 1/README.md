@@ -88,8 +88,8 @@ The project was developed in a Jupyter Notebook environment, but the code can be
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/IBM-AI-Engineering-Professional-Certificate.git
-   cd IBM-AI-Engineering-Professional-Certificate/Course1_Rainfall_Prediction
+   git clone https://github.com/Mohamed-Neifar/IBM-AI-Engineering-Professional-Certificate.git
+   cd IBM-AI-Engineering-Professional-Certificate/Course1
    ```
 
 2. **Install Dependencies**:
